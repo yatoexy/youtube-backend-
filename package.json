@@ -1,0 +1,15 @@
+{
+  "name": "baackend-project",
+  "version": "1.0.0",
+  "description": "first backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javasc",
+    "backend"
+  ],
+  "author": "yatoexy",
+  "license": "ISC"
+}
