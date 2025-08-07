@@ -4,10 +4,11 @@
   "description": "first backend",
   "type": "module",
   "main": "index.js",
-  "scripts": {
+ "scripts": {
   "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
-  "start": "node src/index.js"
-},
+  "start": "node --experimental-json-modules -r dotenv/config src/index.js"
+
+  },
   "keywords": [
     "javascript",
     "backend"
